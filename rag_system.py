@@ -16,6 +16,8 @@ DATA_DIR = "./data"
 CHROMA_PATH = "./chroma_db"
 EMBED_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 GEMINI_MODEL_NAME = "models/gemini-2.5-flash" 
+GEMINI_API_KEY = "PUT YOUR GEMINI API KEY"
+
 
 class RAGSystem:
     def __init__(self):
